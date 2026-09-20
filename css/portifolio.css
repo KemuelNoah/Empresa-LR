@@ -98,7 +98,7 @@ section {
 .navegacao {
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 30px;
 }
 
 .link-navegacao {
@@ -106,11 +106,10 @@ section {
 
     display: flex;
     align-items: center;
-    gap: 8px;
 
     font-size: 14px;
 
-    color: #aeb6c7;
+    color: #ffffff;
 
     transition: 0.3s;
 }
@@ -147,6 +146,10 @@ section {
     cursor: pointer;
 }
 
+.fa-solid.fa-house{
+    color: #ffffff;
+}
+
 /* ==================== INÍCIO ==================== */
 
 .portifolio{
@@ -175,18 +178,23 @@ section {
     min-height: 90vh;
     width: 340px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 10px;
-    border-color: rgb(2, 54, 168);
+    border-color: rgba(255, 255, 255, 0.08);;
     gap: 10px;
     flex-wrap: wrap;
+    transition: 0.3s;
+}
+
+.item-galeria:hover{
+    transform: translateY(-8px);
 }
 
 .fundo-galeria-i{
     display: flex;
     align-items: End;
     justify-content: baseline;
-    width: 335px;
+    width: 336px;
     height: 150px;
     background-image: url("../imagem/portifolio/fundo/impermeabilizacao.png");
     border-top-left-radius:10px;
@@ -199,7 +207,7 @@ section {
     display: flex;
     align-items: End;
     justify-content: baseline;
-    width: 335px;
+    width: 336px;
     height: 150px;
     background-image: url("../imagem/portifolio/fundo/manutencoes.png");
     border-top-left-radius:10px;
@@ -212,7 +220,7 @@ section {
     display: flex;
     align-items: End;
     justify-content: baseline;
-    width: 335px;
+    width: 336px;
     height: 150px;
     background-image: url("../imagem/portifolio/fundo/pintura.png");
     border-top-left-radius:10px;
@@ -225,7 +233,7 @@ section {
     display: flex;
     align-items: End;
     justify-content: baseline;
-    width: 335px;
+    width: 336px;
     height: 150px;
     background-image: url("../imagem/portifolio/fundo/limpeza.png");
     border-top-left-radius:10px;
@@ -284,21 +292,21 @@ li{
 }
 
 i{
-    color: rgb(0, 142, 250);    
+    color: rgb(2, 72, 127);    
     margin-right: 10px;
 }
    
 .linha{
     width: 100%;
     height: 1px;
-    background: linear-gradient(90deg, #0091ff, #0057b7)    ;
+    background: linear-gradient(90deg, #025492, #002f61)    ;
     border-radius: 5px;
 }
 
 .linha2{
     width: 60px;
     height: 5px;
-    background: linear-gradient(90deg, #0091ff, #0057b7);
+    background: linear-gradient(90deg, #00518f, #00346b);
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
