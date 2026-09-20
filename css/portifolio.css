@@ -152,7 +152,7 @@ section {
 .portifolio{
     min-height: 100vh;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
 
